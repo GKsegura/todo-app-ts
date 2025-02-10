@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.taskList {
+    width: 46rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 46rem;
+}
+
+.header h6,
+.header span {
+    font-size: 0.875rem;
+}
+
+.header .created {
+    color: var(--blue);
+}
+
+.header .completed {
+    color: var(--purple);
+}
+
+.header span {
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    padding: 0.25rem 0.5rem;
+    border-radius: 16px
+}
