@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--gray-700);
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5rem 0;
+    font-weight: 800;
+}
+
+.header h1::before {
+    content: "\00A0";
+}
+
+.header h1 span {
+    color: var(--purple-dark);
+}
