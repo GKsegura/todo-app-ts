@@ -1,54 +1,63 @@
-<<<<<<< HEAD
-# todo-app-ts
-=======
-# React + TypeScript + Vite
+# To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and efficient task management app built with **React** and **TypeScript**, designed to enhance productivity with a clean UI and smooth user experience.
 
-Currently, two official plugins are available:
+This project was developed after completing **Level 1** of the **ReactJS course** on **Rocketseat**. It serves as a challenge to reinforce the most important **ReactJS** and **TypeScript** concepts studied during the first level.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ **Add, and Delete Tasks** – Manage your tasks seamlessly.
+- 🎨 **Modern UI** – A clean and responsive interface.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **Frontend:** React, TypeScript
+- **State Management:** React Hooks
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📸 Screenshots
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Empty Task List View
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![Empty Task List](./src/assets/indexNoTask.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
->>>>>>> 2c41f93 (chore: initial project setup)
+### Task List with Items
+
+![Task List with Items](./src/assets/indexWithTask.png)
+
+### Empty Task List - Responsive View
+
+![Empty Task List - Responsive](./src/assets/indexNoTaskResponsive.png)
+
+### Task List with Items - Responsive View
+
+![Task List with Items - Responsive](./src/assets/indexWithTaskResponsive.png)
+
+![App Screenshot](./src/assets/indexNoTask.png)
+![App Screenshot](./src/assets/indexWithTask.png)
+![App Screenshot](./src/assets/indexNoTaskResponsive.png)
+![App Screenshot](./src/assets/indexWithTaskResponsive.png)
+
+## 📂 Installation & Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GKsegura/todo-app-ts.git
+   cd todo-list-app
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+⭐ **Star this repo if you find it useful!**

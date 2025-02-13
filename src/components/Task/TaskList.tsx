@@ -59,9 +59,9 @@ export default function TaskList() {
                             <h3 className={styles.emptyText}>Create tasks and organize your to-do items</h3>
                         </div>
                     ) : (
-                        tasks.map((task) => (
+                        tasks.map((task, index) => (
                             <TaskItem
-                                key={task.id}
+                                key={`${task.id}-${index}`}
                                 id={task.id}
                                 text={task.text}
                                 completed={task.completed}

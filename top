@@ -1,0 +1,6 @@
+[33m470623f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/preview[m[33m, [m[1;31morigin/main[m[33m)[m new: responsive
+[33m65d6b8f[m wip: project ready for review, missing responsiveness
+[33m73ba956[m feat: add Task and TaskList components (still need adjustments)
+[33mfc01885[m add Header and TaskForm components
+[33m02d6486[m chore: initial project setup
+[33mcc5bf91[m Initial commit
