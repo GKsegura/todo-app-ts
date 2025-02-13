@@ -32,11 +32,6 @@ This project was developed after completing **Level 1** of the **ReactJS course*
 
 ![Task List with Items - Responsive](./src/assets/indexWithTaskResponsive.png)
 
-![App Screenshot](./src/assets/indexNoTask.png)
-![App Screenshot](./src/assets/indexWithTask.png)
-![App Screenshot](./src/assets/indexNoTaskResponsive.png)
-![App Screenshot](./src/assets/indexWithTaskResponsive.png)
-
 ## 📂 Installation & Usage
 
 1. Clone the repository:
