@@ -121,3 +121,79 @@
 .form button:hover {
     background-color: var(--blue);
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .taskList {
+        width: 80%;
+    }
+
+    .emptyContainer {
+        width: 80%;
+    }
+
+    .header {
+        width: 80%;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .taskText {
+        width: 70%;
+    }
+
+    .form button {
+        width: 25%;
+    }
+
+    .emptyContainer h3 {
+        font-size: 0.875rem;
+    }
+
+    .header h6,
+    .header span {
+        font-size: 0.75rem;
+    }
+
+    .header .created,
+    .header .completed {
+        font-size: 0.75rem;
+    }
+
+    .header span {
+        font-size: 0.75rem;
+    }
+
+    .taskText::placeholder {
+        font-size: 0.75rem;
+    }
+
+    .taskText {
+        font-size: 0.75rem;
+    }
+
+    .form button {
+        font-size: 0.75rem;
+    }
+
+    .emptyContainer {
+        width: 100%;
+    }
+
+    .emptyContainer h3 {
+        font-size: 0.75rem;
+    }
+
+    .emptyContainer h3 span {
+        font-size: 0.75rem;
+    }
+
+    .emptyContainer {
+        padding: 25px 0 0 0;
+    }
+}
